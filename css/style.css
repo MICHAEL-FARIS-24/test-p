@@ -1,0 +1,195 @@
+*{box-sizing:border-box;}
+
+/* Start main rus */
+
+
+.contianer{width:1170px; margin:auto;}
+/* End main rus */
+
+/* Start Header  */
+.header .navbar{background-color: rgb(20, 20, 20); color:#fff;    margin-top: -16px; }
+
+.header .navbar h2{text-transform: uppercase;float: left;}
+
+.header .navbar h2 span{color: brown;}
+
+.header .navbar ul{list-style: none;    padding-left: 442px; display: grid;  grid-template-columns: repeat(4,auto);}
+
+.header .navbar ul li{float: left; padding: 20px;}
+
+.header .navbar ul li a{color: #FFF;text-decoration: none;}
+
+
+.header .navbar ul li a:hover{color: rgb(83, 180, 27);}
+.header .navbar ul li.active a{color: rgb(18, 116, 56);}
+
+
+.header .slider {background-image: url("../image/a.jpg");
+height: 1000px;     margin: -21px;
+-webkit-background-size:cover;
+-o-background-size:cover;
+-moz-background-size:cover;
+background-size:cover;} 
+
+.header .slider .intro{ color: rgb(14 113 216);text-transform: uppercase;transform: translate(666px, 75px); }
+
+.header .slider .intro h2{border-top: 4px solid #0e0e0e;border-bottom: 4px solid #0e0e0e;font-weight: bold;
+    font-style: italic;text-align: center;width: 345px;}
+
+.header .slider button{ background: none;
+    transform: translate(134px,13px);
+    border: 4px solid #0e0e0e;}
+
+.header .slider h3{ transform: translate(586px, 340px); color: #1d8c20;word-spacing:5px;text-transform: uppercase;
+    animation-name: move-color; animation-duration: 6s;animation-iteration-count: infinite;animation-timing-function: ease;
+}
+@keyframes move-color{
+    0%{transform: translate(586px, 270px); color: #1d8c20}
+    25%{transform: translate(586px, 390px); color: #47f331}
+    75%{transform: translate(586px, 390px); color: #1310c2}
+    100%{color: red;}
+}
+
+/* End Header  */
+
+/* Start Information */
+.Information .key{color:#072366;text-align:center;margin:70px; font-size:30px;}
+
+.Information .row  {display: grid; grid-template-columns: repeat(3,1fr); }
+
+.Information .row h3{color:#003087; font:26px Muli;font-weight: bolder}
+.Information .row p{color:#10285d; font: 16px Muli}
+
+.Information .row .icon1 img{width: 50px; height:50px;}
+.Information .row .f1 img{transform:translate(-66px, -105px)}
+.Information .row .f2 img{transform:translate(-66px, -105px);}
+.Information .row .f3 img{transform:translate(-66px, -122px);}
+.Information .row .f4 img{transform:translate(-66px, -87px);}
+.Information .row .f5 img{transform:translate(-66px, -122px);}
+.Information .row .f6 img{transform:translate(-66px, -87px);}
+
+
+/* End Information */
+
+/* Start animation1 */
+.ani p{text-transform: uppercase;color:#364874;font-size:20px; font-family: cursive; font-weight: bold;
+animation-name: mov2; animation-duration: 9s;animation-iteration-count:infinite;animation-timing-function: cubic-bezier(0.4, 0, 1, 1);
+animation-direction: alternate;}
+
+@keyframes mov2{
+    0%{}
+    100%{margin-left: 1000px;;color: #47f331;}
+}
+/* End animation1 */
+
+ /* Start Stories  */
+ .stories  h2{ color:#072366;text-align:center;margin:100px; font-size:30px;text-transform: uppercase;}
+ .stories .employees .c {display: grid; grid-template-columns: repeat(3,1fr); text-align: center;}
+ .stories .employees img{border-radius:50%; width: 263px; height: 210px;}
+
+ .stories .employees h3{color:#003087; font:26px Muli;font-weight: bold}
+
+ .stories .employees p{color:#10285d; font: 16px ;line-height: 36px; margin: 27px;font-family: cursive;font-weight: bold;}
+ /* Start Stories */
+
+ /* Start animation2 */
+.ani2 p{text-transform: uppercase;font-size:20px; font-family: Arial, Helvetica, sans-serif; font-weight: bold;
+    animation-name: mov2; animation-duration: 20s;animation-iteration-count:infinite;
+    animation-timing-function: cubic-bezier(0.54, 0.39, 0.57, 0.42);
+    animation-direction: alternate;}
+    
+    @keyframes mov2{
+        0%{transform: translate(0px,0px);color: #0f015e;}
+        
+       25%{transform: translate(250px,-14px);color: #0a43be;}
+        50%{transform: translate(500px,-7px);color: #52be0a;}
+       75%{transform: translate(700px,7px);color: #0abeaf;} 
+       100%{transform: translate(1000px,14px);color: #be0a0a;}
+    }
+    /* End animation2 */
+
+ /* Start About us  */
+ .abut-us{ margin-bottom: 110px;}
+ .abut-us h2{color:#072366;text-align:center;margin:100px; font-size:40px;text-transform: uppercase;}
+
+ .abut-us .portafolio{display: grid; grid-template-columns: repeat(2,1fr)}
+ .abut-us .portafolio .first{    width: 626px;height: 463px;}
+ .abut-us .portafolio .text{background-color: rgb(102, 135, 235);}
+ .abut-us .portafolio h3{margin-left: 140px;color:#EEE; font:26px Muli;font-weight: bolder;}
+ .abut-us .portafolio p{color:#EEE; font: 16px ;line-height: 50px; margin: 27px;font-weight: bold;width:500px;margin-left: 84px;}
+ .abut-us .portafolio .para{margin:40px ;margin-left: 183px;}
+ .abut-us .portafolio .last {height: 417px;}
+ /* End About us  */
+
+ /* Start Curriculum  */
+
+ .curriculum .semester h2{color:#072366;text-align:center;margin:100px; font-size:30px;text-transform: uppercase;}
+ .curriculum .semester .columns3{display: grid; grid-template-columns: repeat(3,1fr); }
+.curriculum .semester img{width:60px;height:60px ;transform: translate(165px,10px);}
+
+.curriculum .semester h3{color:#003087; font:26px Muli;font-weight: bold;text-align: center;}
+
+.curriculum .semester p{text-align: center;color:#10285d; font: 16px ;line-height: 36px; margin: 27px;
+    font-family: Arial, Helvetica, sans-serif;font-weight: bold;}
+ /* End Curriculum  */
+
+ /* Start Achievements */
+.achievements h2{color:#072366;text-align:center;margin:100px; font-size:30px;text-transform: uppercase;}
+.achievements .success {display: grid; grid-template-columns: repeat(3,1fr);}
+.achievements .success h3{color:#003087; font:30px ;font-weight: bold;text-align: center;font-size: 40px;}
+.achievements .success p{text-align: center;color:rgb(158, 151, 151); font: 16px ;line-height: 36px; margin: 27px;
+    font-family: Arial, Helvetica, sans-serif;font-weight: bold;}
+    .achievements img{background-color: aliceblue;margin-bottom: 170px;}
+ /* End Achievements */
+
+
+ /* Start animation3 */
+.ani3 .mov3 .box {background-color: #777; width:40px;height: 40px; margin-left: 580px; 
+    animation-name:boxe; animation-duration: 3s;animation-iteration-count:infinite;
+    animation-timing-function:ease;
+    animation-direction: alternate;}
+    
+    @keyframes boxe{
+        0%{transform: translate(0px,-50px);}
+        25%{transform: rotate(360deg);background-color: #be0a0a;}
+        
+       50%{transform: rotate(-360deg);background-color: #1c0849;}
+       75%{transform: translate(0px,-100px); background-color: green;}
+       100%{transform:scale(3)} 
+       
+    }
+ /* End animation3 */
+
+ /* Start Scholarships */
+
+ .scholarships .Financial{margin-top:100px;margin-bottom: 200px}
+ .scholarships .Financial {display: grid; grid-template-columns: repeat(2,1fr);}
+ .scholarships .Financial img{width: 570px;height: 353px;}
+ .scholarships .Financial h2 {color:#003087; font:30px ;font-weight: bold;text-align: center;font-size: 40px;}
+ .scholarships .Financial p{text-align: center;color:rgb(158, 151, 151); font: 16px ;line-height: 60px; margin: 27px;
+    font-family: Arial, Helvetica, sans-serif;font-weight: bold;width: 400px;
+    margin-left: 92px;}
+
+ .scholarships .Financial .but{margin-left: 186px;background-color: #003087;color:#FFF;font-size: 20px;
+    border: none; padding: 16px 40px;text-decoration: none;
+}
+ /* End Scholarships */
+ /* start footer */
+ .footer .info{transform: translate(314px, 10px);margin-bottom: 50px;}
+ .footer .info h3 {color:#003087; text-align: center; ;font-size: 30px; margin-left: 82px}
+ .footer .info p {text-align: center;color:rgb(158, 151, 151); font: 16px ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 92px;}
+ .footer .info .number{color:#072366; font-size:30px;}
+ 
+/* End footer */
+
+/* Start Contact */
+.contact { background-color: rgb(20, 20, 20); height: 60px; }
+.contact ul{ list-style: none;display: flex;justify-content: center;}
+.contact ul li{flex-basis: 59px; text-align:center;margin-top: 11px;border-radius:50%; color: #883e1b;}
+.contact ul li:nth-child(1):hover{color: #2109a7;}
+.contact ul li:nth-child(2):hover{color: #d81414;}
+.contact ul li:nth-child(3):hover{color: #e21a1a;}
+.contact ul li:nth-child(4):hover{color: #13da6c;}
+/* End Contact */
